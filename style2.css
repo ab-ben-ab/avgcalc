@@ -1,0 +1,21 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.result {
+  color: aliceblue;
+  padding: 2rem;
+  margin-top: 200px;
+}
+
+div h4 {
+  position: absolute;
+  bottom: 0;
+  color: antiquewhite;
+}

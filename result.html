@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"/>
+    <title>🔢 Moadali</title>
+</head>
+<body>
+    <div class="result-container">
+        <h1 class="result"></h1>
+    </div>
+    <div class="me">
+        <h4># made by A. B. </h4>
+    </div>
+    <script>
+        const result = localStorage.getItem("result")
+        const resultEl = document.querySelector(".result")
+        resultEl.innerText = `Average : ${result}`
+    </script>
+</body>
+</html>

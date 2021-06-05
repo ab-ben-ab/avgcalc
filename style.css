@@ -1,0 +1,58 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0 auto;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  padding: 2rem;
+  color: aliceblue;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  outline: none;
+  padding: 1rem;
+  width: 30%;
+  border: rgb(14, 13, 13);
+  border-radius: .8rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease-out;
+}
+
+input:hover {
+  background-color: rgb(189, 223, 243);
+}
+
+.button-container {
+  padding: 3rem;
+}
+
+.calculate {
+  padding: 2rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  transition: all 0.3s ease-out;
+}
+
+.calculate:hover {
+  background-color: rgb(189, 223, 243);
+  padding: 2.3rem;
+}
+
+div h4 {
+  position: absolute;
+  color: antiquewhite;
+}
